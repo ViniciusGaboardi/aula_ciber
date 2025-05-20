@@ -23,8 +23,8 @@ jobs:
       - name: Compacta(Zip) buid
         shell: bash
         run: |
-         cd build/ci_cd_projeto/backend
-         zip -r backend.zip dist
+          cd build/ci_cd_projeto/backend
+          zip -r backend.zip dist
 
 
   build_front:
@@ -45,8 +45,8 @@ jobs:
       - name: Compacta(Zip) buid
         shell: bash
         run: |
-         cd build/ci_cd_projeto/frontend
-         zip -r frontend.zip dist
+          cd build/ci_cd_projeto/frontend
+          zip -r frontend.zip dist
          
   empacotar:
     name: Empacotar
